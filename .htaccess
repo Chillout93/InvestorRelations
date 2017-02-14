@@ -1,0 +1,18 @@
+Options -MultiViews
+
+RewriteEngine On
+
+
+RewriteBase /public/
+
+RewriteRule ^$ /investor-relations/ [R=301,L]
+RewriteRule ^investor-relations/public(.*)$ /public/$1 [R=301,NC,L]
+
+
+RewriteCond %{REQUEST_FILENAME} !-d
+
+RewriteCond %{REQUEST_FILENAME} !-f
+
+RewriteRule ^(.+)$ index.php?url=$1 [QSA,L]
+
+Header set Access-Control-Allow-Origin: *

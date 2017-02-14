@@ -1,0 +1,362 @@
+@font-face { 
+  font-family: 'MulberryBespoke';
+  src: url('http://www.mulberry.com/plugins/investor_relations/fonts/MulberryBespoke/MulberryBespoke-Regular.otf') format('opentype');
+}
+
+@font-face { 
+  font-family: 'MulberryBespoke';
+  src: url('http://www.mulberry.com/plugins/investor_relations/fonts/MulberryBespoke/MulberryBespoke-Bold-Italic.otf') format('opentype');
+  font-weight: bold;
+  font-style: italic;
+}
+
+@font-face { 
+  font-family: 'MulberryBespoke';
+  src: url('http://www.mulberry.com/plugins/investor_relations/fonts/MulberryBespoke/MulberryBespoke-Bold.otf') format('opentype');
+  font-weight: bold;
+}
+
+@font-face { 
+  font-family: 'MulberryBespoke';
+  src: url('http://www.mulberry.com/plugins/investor_relations/fonts/MulberryBespoke/MulberryBespoke-Regular-Italic.otf') format('opentype');
+  font-style: italic;
+}
+
+@font-face{
+  font-family: "Bembo";
+  src: url("http://www.mulberry.com/plugins/investor_relations/fonts/Bembo/BemboW01.eot?#iefix");
+  src: url("http://www.mulberry.com/plugins/investor_relations/fonts/Bembo/BemboW01.eot?#iefix") format("eot"),
+       url("http://www.mulberry.com/plugins/investor_relations/fonts/Bembo/BemboW01.woff2") format("woff2"),
+       url("http://www.mulberry.com/plugins/investor_relations/fonts/Bembo/BemboW01.woff") format("woff"),
+       url("http://www.mulberry.com/plugins/investor_relations/fonts/Bembo/BemboW01.ttf") format("truetype"),
+       url("http://www.mulberry.com/plugins/investor_relations/fonts/Bembo/BemboW01.svg#BemboW01") format("svg");
+}
+
+@font-face{
+  font-family: "Bembo";
+  font-style: italic;
+  src: url("http://www.mulberry.com/plugins/investor_relations/fonts/Bembo/BemboMTW01Italic705759.eot?#iefix");
+  src: url("http://www.mulberry.com/plugins/investor_relations/fonts/Bembo/BemboMTW01Italic705759.eot?#iefix") format("eot"),
+       url("http://www.mulberry.com/plugins/investor_relations/fonts/Bembo/BemboMTW01Italic705759.woff2") format("woff2"),
+       url("http://www.mulberry.com/plugins/investor_relations//fonts/Bembo/BemboMTW01Italic705759.woff") format("woff"),
+       url("http://www.mulberry.com/plugins/investor_relations/fonts/Bembo/BemboMTW01Italic705759.ttf") format("truetype"),
+       url("http://www.mulberry.com/plugins/investor_relations/fonts/Bembo/BemboMTW01Italic705759.svg#BemboMTW01Italic705759") format("svg");
+}
+
+@font-face{
+  font-family: "Bembo";
+  font-weight: bold;
+  src: url("http://www.mulberry.com/plugins/investor_relations/fonts/Bembo/BemboMTW01Semibold705762.eot?#iefix");
+  src: url("http://www.mulberry.com/plugins/investor_relations/fonts/Bembo/BemboMTW01Semibold705762.eot?#iefix") format("eot"),
+       url("http://www.mulberry.com/plugins/investor_relations/fonts/Bembo/BemboMTW01Semibold705762.woff2") format("woff2"),
+       url("http://www.mulberry.com/plugins/investor_relations/fonts/Bembo/BemboMTW01Semibold705762.woff") format("woff"),
+       url("http://www.mulberry.com/plugins/investor_relations/fonts/Bembo/BemboMTW01Semibold705762.ttf") format("truetype"),
+       url("http://www.mulberry.com/plugins/investor_relations/fonts/Bembo/BemboMTW01Semibold705762.svg#BemboMTW01Semibold705762") format("svg");
+}
+
+@font-face{
+  font-family: "Bembo";
+  font-weight: bold;
+  font-style: italic;
+  src: url("http://www.mulberry.com/plugins/investor_relations/fonts/Bembo/BemboMTW01-SemiboldItal.eot?#iefix");
+  src: url("http://www.mulberry.com/plugins/investor_relations/fonts/Bembo/BemboMTW01-SemiboldItal.eot?#iefix") format("eot"),
+       url("http://www.mulberry.com/plugins/investor_relations/fonts/Bembo/BemboMTW01-SemiboldItal.woff2") format("woff2"),
+       url("http://www.mulberry.com/plugins/investor_relations/fonts/Bembo/BemboMTW01-SemiboldItal.woff") format("woff"),
+       url("http://www.mulberry.com/plugins/investor_relations/fonts/Bembo/BemboMTW01-SemiboldItal.ttf") format("truetype"),
+       url("http://www.mulberry.com/plugins/investor_relations/fonts/Bembo/BemboMTW01-SemiboldItal.svg#BemboMTW01-SemiboldItal") format("svg");
+}
+
+@font-face{
+  font-family: "Avenir";
+  src: url("http://www.mulberry.com/plugins/investor_relations/fonts/Avenir/AvenirLTW01_45Book1475508.eot?#iefix");
+  src: url("http://www.mulberry.com/plugins/investor_relations/fonts/Avenir/AvenirLTW01_45Book1475508.eot?#iefix") format("eot"),
+       url("http://www.mulberry.com/plugins/investor_relations/fonts/Avenir/AvenirLTW01_45Book1475508.woff2") format("woff2"),
+       url("http://www.mulberry.com/plugins/investor_relations/fonts/Avenir/AvenirLTW01_45Book1475508.woff") format("woff"),
+       url("http://www.mulberry.com/plugins/investor_relations/fonts/Avenir/AvenirLTW01_45Book1475508.ttf") format("truetype"),
+       url("http://www.mulberry.com/plugins/investor_relations/fonts/Avenir/AvenirLTW01_45Book1475508.svg#AvenirLTW01_45Book1475508") format("svg");
+}
+
+@font-face{
+  font-family: "Avenir";
+  font-weight: bold;
+  src: url("http://www.mulberry.com/plugins/investor_relations/fonts/Avenir/AvenirLTW01_95Black1475556.eot?#iefix");
+  src: url("http://www.mulberry.com/plugins/investor_relations/fonts/Avenir/AvenirLTW01_95Black1475556.eot?#iefix") format("eot"),
+       url("http://www.mulberry.com/plugins/investor_relations/fonts/Avenir/AvenirLTW01_95Black1475556.woff2") format("woff2"),
+       url("http://www.mulberry.com/plugins/investor_relations/fonts/Avenir/AvenirLTW01_95Black1475556.woff") format("woff"),
+       url("http://www.mulberry.com/plugins/investor_relations/fonts/Avenir/AvenirLTW01_95Black1475556.ttf") format("truetype"),
+       url("http://www.mulberry.com/plugins/investor_relations/fonts/Avenir/AvenirLTW01_95Black1475556.svg#AvenirLTW01_95Black1475556") format("svg");
+}
+
+
+/* TEXT */
+h1 {
+  font-family: 'MulberryBespoke';
+  font-size: 30px;
+  line-height: 43px;  
+}
+
+h1 > a, a:hover {
+  color: black; 
+  text-decoration: none; 
+}
+
+h2 {
+  font-family: 'Bembo';
+  font-size: 25px;
+  line-height: 28px;
+  padding-bottom: 0px;
+  margin-bottom: 15px;
+  margin-top: 50px;
+}
+
+h3 {
+  font-family: 'Bembo';
+  font-size: 20px;
+  line-height: 26px;
+  padding-bottom: 0px;
+  margin-bottom: 10px;
+  margin-top: 40px;
+}
+
+h4 {
+  font-family: 'Bembo';
+  font-size: 20px;
+  padding-bottom: 0px;
+  margin-bottom: 0px;
+  margin-top: 40px;
+}
+
+h5 {
+  font-family: 'Avenir';
+  font-size: 14px;
+  line-height: 20px;
+  padding-bottom: 0px;
+  margin-bottom: 0px;
+  margin-top: 40px;
+  font-weight: bold;
+}
+
+h6 {
+  font-family: 'Avenir';
+  font-size: 12px;
+  line-height: 17px;
+  padding-bottom: 0px;
+  margin-bottom: 0px;
+}
+
+/* MAIN */
+body {
+  font-family: 'Avenir';
+  font-size: 14px;
+  line-height: 20px;
+  overflow-x:hidden;
+  height:100%;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+} 
+
+.headertop {
+  margin-top: 25px;
+}
+
+.container {
+  max-width: 1012px;
+  word-wrap: break-word;
+}
+
+.footer-box-container {
+  padding: 10px;
+  margin: 10px 0px;
+  margin-bottom: 0px;
+  padding-bottom: 0px;
+  position: relative;
+}
+
+footer a {
+  font-size: 13px;
+}
+
+.footer-box {
+  background-color: #F5F5F5;
+  padding: 10px;
+  margin: -10px;
+  height: 270px;
+  padding-left: 15px;
+}
+
+.footer-box h4 {
+  margin-top: 10px;
+}
+
+p {
+  margin: 10px 0px;
+}
+
+/* NAVBAR */
+.logo {
+  font-family: 'MulberryBespoke';
+  font-size: 40px;
+  font-weight: normal;
+  text-align: center;
+}
+
+.logo:hover {
+  font-weight: normal;
+}
+
+.navbar-default {
+  border: none;
+  border-bottom: 1px solid #E7E7E7;
+  background-color: white;
+  border-radius: 0;
+}
+
+.navbar .navbar-nav {
+  display: inline-block;
+  float: none;
+  vertical-align: top;
+}
+
+.navbar .navbar-collapse {
+  text-align: center;
+}
+
+header .navbar-nav > li > a {
+  text-decoration: none;
+  height: 50px;
+  width: 147px;
+  font-size: 13px;
+}
+
+header .navbar li a:hover {
+  color: black;
+  border-bottom: 2px solid black;
+  background-color: rgba(181, 181, 181, 0.1);
+}
+
+header .navbar li a.current {
+  border-bottom: 2px solid black;
+  color: black;
+}
+
+.popover {
+  border-radius: 0px;
+}
+
+.popover-content {
+    line-height: 0px;
+    padding: 0px;
+    font-size: 10px;
+}
+
+footer .navbar-default .navbar-nav>li>a:focus, footer .navbar-default .navbar-nav>li>a:hover {
+  font-weight: bold;
+  text-decoration: underline;
+  color: white;
+}
+
+footer .navbar-default .navbar-nav > li > a {
+  text-align: center;
+  color: white;
+  text-decoration: none;
+  width: 140px;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+
+footer img {
+  height: 50px;
+}
+
+footer .navbar-default {
+  background-color: #0F221C;
+  color: white;
+}
+
+.navbar-toggle {
+  margin-top: 35px;
+  border: none;
+}
+
+.navbar-default .navbar-toggle:hover, .navbar-default .navbar-toggle:focus {
+  background-color: white;
+}
+
+.navbar-brand {
+  margin-right: 50px;
+}
+
+@media (max-width: 1200px) {
+    header .navbar li a:hover {
+      font-weight: bold;
+      color: black;
+      border-bottom: none;
+    }
+    
+    header .navbar li a.current {
+      font-weight: bold;
+      color: black;
+      border-bottom: none;
+    }
+    
+    header .navbar .navbar-collapse {
+      border-top: 1px solid #E7E7E7;
+    }
+    .navbar-header {
+        float: none;
+    }
+    
+    .navbar-toggle {
+        display: block;
+        position: absolute;
+    }
+    
+    .navbar-collapse.collapse {
+        display: none !important;
+    }
+    .navbar-collapse.collapse.in { display: block!important; }
+    .navbar-nav {
+        float: none !important;
+        margin: 7.5px -15px;
+    }
+    .navbar-nav>li {
+        float: none;
+    }
+    .navbar-nav>li>a {
+        padding-top: 10px;
+        padding-bottom: 10px;
+        height: auto;
+        width: auto;
+    }
+    .navbar-nav>li>a:hover {
+        border: none;
+    }
+}
+
+/* SIDEBAR */
+.affix {
+  top: 20px;
+  width:210px;
+}
+
+#sidebar li {
+  width: 210px;
+}
+
+#sidebar li.active {
+  text-decoration: underline;
+}
+
+#sidebar li a:hover, #sidebar li a:focus {
+  background-color: #F3F3F3;
+}
+
+.table {
+  font-size: 14px;
+  margin-top: 30px;
+}
+
